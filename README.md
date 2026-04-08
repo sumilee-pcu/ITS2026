@@ -53,7 +53,7 @@ conda create -n yolo_practice python=3.10
 conda activate yolo_practice
 
 # 패키지 설치
-pip install -r requirements.txt
+pip install ultralytics opencv-python numpy matplotlib pandas tqdm
 ```
 
 > ✅ `Successfully installed ultralytics` 메시지 확인 시 설치 완료임.
