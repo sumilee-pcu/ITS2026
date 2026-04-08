@@ -1,0 +1,53 @@
+# 검출 결과물 (용량 큰 이미지/동영상)
+outputs/detect_single/
+outputs/detect_batch/
+outputs/video_detect/
+outputs/video_track/
+outputs/runs/
+
+# 결과 CSV는 template만 유지, 실제 결과는 제외
+outputs/result_summary.csv
+outputs/batch_summary.csv
+outputs/result_summary_nb.csv
+outputs/result_summary_from_notebook.csv
+outputs/its_ideas_from_notebook.csv
+
+# 수강생 데이터 (개인 이미지/동영상)
+data/images/
+data/videos/
+
+# YOLO 모델 가중치 (자동 다운로드됨)
+*.pt
+runs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# 가상환경
+venv/
+env/
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
